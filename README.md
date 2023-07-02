@@ -26,7 +26,7 @@ Cryptocurrency price prediction component:
 1. Install streamlit:
     
     ```sh
-    npm install --save-dev size-limit @size-limit/file
+    pip install streamlit
     ```
 2. Install numpy:
    
