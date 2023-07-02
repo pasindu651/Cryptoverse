@@ -21,7 +21,10 @@ Cryptocurrency price prediction component:
 2. The program fetches the price data of the window defined by the user from Yahoo Finance and configures it in a numpy array after training it.
 3. The program leverages a sequential model built with LSTM layers to understand the relationships of the price data.
 4. The program fits the model and compares the predicted prices of the test data and the actual prices, plotting their respective graphs using pandas and streamlit
-
+    
+Cryptocurrency financial chatbot component:
+1. The program uses Voiceflow's streamlined flowchart structure to build responses trained on financial Q&A data.......
+   
 <details><summary><b>Show requirements</b></summary>
     
 1. Install streamlit:
@@ -70,9 +73,3 @@ Cryptocurrency price prediction component:
     python3 -m streamlit run main.py
     ```
 </details>
-
-    
-Cryptocurrency financial chatbot component:
-1. The program uses Voiceflow's streamlined flowchart structure to build responses trained on financial Q&A data.......
-   
-
