@@ -66,7 +66,7 @@ Cryptocurrency price prediction component:
     ```sh
     npm install --save-dev size-limit @size-limit/file
     ```
-
+</details>
 
     
 Cryptocurrency financial chatbot component:
