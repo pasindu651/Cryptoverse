@@ -44,49 +44,5 @@ Cryptoverse is an all-in-one streamlit python app that offers a comprehensive pl
    
 <details><summary><b>Show requirements</b></summary>
     
-1. Install streamlit:
-    
-    ```sh
-    pip install streamlit
-    ```
-2. Install numpy:
-   
-    ```sh
-    pip install numpy
-    ```
-1. Install pandas:
-   
-    ```sh
-    pip install pandas
-    ```
-1. Install datetime:
-   
-    ```sh
-    pip install datetime
-    ```
-1. Install sklearn:
-   
-    ```sh
-    pip install scikit-learn
-    ```
-1. Install yfinance:
-   
-    ```sh
-    pip install yfinance
-    ```
-1. Install tensorflow:
-   
-    ```sh
-    pip install tensorflow
-    ```
-1. Install random:
-   
-    ```sh
-    pip install random
-    ```
-1. Run the python file to create a localhost server:
-   
-    ```sh
-    python3 -m streamlit run main.py
-    ```
+Install with ```pip install -r requirements.txt
 </details>
