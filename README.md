@@ -24,34 +24,42 @@ Cryptocurrency price prediction component:
 
 <details><summary><b>Show instructions</b></summary>
 1. Install streamlit:
+    
     ```sh
     npm install --save-dev size-limit @size-limit/file
     ```
 2. Install numpy:
+   
     ```sh
     npm install --save-dev size-limit @size-limit/file
     ```
 1. Install pandas:
+   
     ```sh
     npm install --save-dev size-limit @size-limit/file
     ```
 1. Install datetime:
+   
     ```sh
     npm install --save-dev size-limit @size-limit/file
     ```
 1. Install sklearn:
+   
     ```sh
     npm install --save-dev size-limit @size-limit/file
     ```
 1. Install yfinance:
+   
     ```sh
     npm install --save-dev size-limit @size-limit/file
     ```
 1. Install tensorflow:
+   
     ```sh
     npm install --save-dev size-limit @size-limit/file
     ```
 1. Install random:
+   
     ```sh
     npm install --save-dev size-limit @size-limit/file
     ```
