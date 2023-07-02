@@ -26,8 +26,22 @@ Cryptoverse is an all-in-one streamlit python app that offers a comprehensive pl
 
 3. The program leverages a sequential model built with LSTM layers to understand the relationships of the price data. 
 
-4. The program fits the model and compares the predicted prices of the test data and the actual prices, plotting their respective graphs using pandas and streamlit.  
+4. The program fits the model and compares the predicted prices of the test data and the actual prices, plotting their respective graphs using pandas and streamlit.
 
+</br>
+
+![image](https://i.ibb.co/k0XWK8C/crypto.png)
+
+<h3>Cryptocurrency comparison and heatmap component:</h3>
+
+![image](https://i.ibb.co/xFLGdx1/cryptoverse-pg-3.jpg)
+
+1. The program creates multiple columns with simultaneous data provided by the tickers selected by the user
+
+2. The program plots each respective column on a single graph
+
+3. The creates subplots and a heatmap by calculating the percentage change of the combined data
+   
 </br>
 
 ![image](https://i.ibb.co/Kj7JZJ4/cryptoverse-pg-2.jpg)
