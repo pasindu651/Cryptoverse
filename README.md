@@ -32,37 +32,42 @@ Cryptocurrency price prediction component:
 2. Install numpy:
    
     ```sh
-    npm install --save-dev size-limit @size-limit/file
+    pip install numpy
     ```
 1. Install pandas:
    
     ```sh
-    npm install --save-dev size-limit @size-limit/file
+    pip install pandas
     ```
 1. Install datetime:
    
     ```sh
-    npm install --save-dev size-limit @size-limit/file
+    pip install datetime
     ```
 1. Install sklearn:
    
     ```sh
-    npm install --save-dev size-limit @size-limit/file
+    pip install sklearn
     ```
 1. Install yfinance:
    
     ```sh
-    npm install --save-dev size-limit @size-limit/file
+    pip install yfinance
     ```
 1. Install tensorflow:
    
     ```sh
-    npm install --save-dev size-limit @size-limit/file
+    pip install tensorflow
     ```
 1. Install random:
    
     ```sh
-    npm install --save-dev size-limit @size-limit/file
+    pip install random
+    ```
+1. Run the python file to create a localhost server:
+   
+    ```sh
+    python3 -m streamlit run main.py
     ```
 </details>
 
