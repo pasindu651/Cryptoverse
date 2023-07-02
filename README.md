@@ -29,8 +29,6 @@ Cryptoverse is an all-in-one streamlit python app that offers a comprehensive pl
 4. The program fits the model and compares the predicted prices of the test data and the actual prices, plotting their respective graphs using pandas and streamlit.  
 
 </br>
-</br>
-
 
 ![image](https://i.ibb.co/Kj7JZJ4/cryptoverse-pg-2.jpg)
 
