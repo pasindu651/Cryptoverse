@@ -26,7 +26,6 @@ Cryptoverse is an all-in-one streamlit python app that offers a comprehensive pl
 
 </br>
 </br>
-</br>
 
 
 ![image](https://i.ibb.co/Kj7JZJ4/cryptoverse-pg-2.jpg)
