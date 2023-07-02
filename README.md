@@ -34,8 +34,6 @@ Cryptoverse is an all-in-one streamlit python app that offers a comprehensive pl
 
 <h3>Cryptocurrency comparison and heatmap component:</h3>
 
-![image](https://i.ibb.co/xFLGdx1/cryptoverse-pg-3.jpg)
-
 1. The program creates multiple columns with simultaneous data provided by the tickers selected by the user
 
 2. The program plots each respective column on a single graph
@@ -44,7 +42,7 @@ Cryptoverse is an all-in-one streamlit python app that offers a comprehensive pl
    
 </br>
 
-![image](https://i.ibb.co/Kj7JZJ4/cryptoverse-pg-2.jpg)
+![image](https://i.ibb.co/k0XWK8C/crypto.png)
 
 <h3>Cryptocurrency financial chatbot component:</h3>
 
