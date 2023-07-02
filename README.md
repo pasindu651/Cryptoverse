@@ -22,17 +22,56 @@ Cryptocurrency price prediction component:
 3. The program leverages a sequential model built with LSTM layers to understand the relationships of the price data.
 4. The program fits the model and compares the predicted prices of the test data and the actual prices, plotting their respective graphs using pandas and streamlit
 
+<details><summary><b>Show instructions</b></summary>
+1. Install streamlit:
+
+    ```sh
+    npm install --save-dev size-limit @size-limit/file
+    ```
+2. Install numpy:
+
+    ```sh
+    npm install --save-dev size-limit @size-limit/file
+    ```
+1. Install pandas:
+
+    ```sh
+    npm install --save-dev size-limit @size-limit/file
+    ```
+
+1. Install datetime:
+
+    ```sh
+    npm install --save-dev size-limit @size-limit/file
+    ```
+1. Install sklearn:
+
+    ```sh
+    npm install --save-dev size-limit @size-limit/file
+    ```
+
+1. Install yfinance:
+
+    ```sh
+    npm install --save-dev size-limit @size-limit/file
+    ```
+1. Install tensorflow:
+
+    ```sh
+    npm install --save-dev size-limit @size-limit/file
+    ```
+
+1. Install random:
+
+    ```sh
+    npm install --save-dev size-limit @size-limit/file
+    ```
+
+
+    
 Cryptocurrency financial chatbot component:
 1. The program uses Voiceflow's streamlined flowchart structure to build responses trained on financial Q&A data.......
    
-## Usage
-
-### JS Applications
-
-Suitable for applications that have their own bundler and send the JS bundle
-directly to a client (without publishing it to npm). Think of a user-facing app
-or website, like an email client, a CRM, a landing page or a blog with
-interactive elements, using React/Vue/Svelte lib or vanilla JS.
 
 <details><summary><b>Show instructions</b></summary>
 
