@@ -1,7 +1,7 @@
 # Cryptoverse
 
 
-Cryptoverse is an all-in-one streamlit python app that offers a comprehensive platform for predicting various types of cryptocurrences, engaging with a financial cryptocurrency chatbot, and gaining insight into sentiment analysis of cryptocurrency-related tweats. This app allows regular investors to stay ahead of the crypto game by making informed decisions about their investments by leveraging a well-rounded analysis of cryptocurrency in a market that is characterized by uncertainty.
+Cryptoverse is an all-in-one streamlit python app that offers a comprehensive platform for predicting various types of cryptocurrences, engaging with a financial cryptocurrency chatbot, and gaining insight into sentiment analysis of cryptocurrency-related tweats. This app allows regular investors to stay ahead of the crypto game by making informed decisions about their investments and leveraging a well-rounded analysis of cryptocurrency in a market that is characterized by uncertainty.
 * **ES modules** and **tree-shaking** support.
 * Add Size Limit to **Travis CI**, **Circle CI**, **GitHub Actions**
   or another CI system to know if a pull request adds a massive dependency.
