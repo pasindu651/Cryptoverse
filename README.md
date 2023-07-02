@@ -3,7 +3,7 @@
 
 Cryptoverse is an all-in-one streamlit python app that offers a comprehensive platform for predicting various types of cryptocurrences, engaging with a financial cryptocurrency chatbot, and gaining insight into sentiment analysis of cryptocurrency-related tweats. This app allows regular investors to stay ahead of the crypto game by making informed decisions about their investments and leveraging a well-rounded analysis of cryptocurrency in a market that is characterized by uncertainty.
 
-## Who Uses Size Limit
+## Tools Used
 
 * [MobX](https://github.com/mobxjs/mobx)
 * [Material-UI](https://github.com/callemall/material-ui)
