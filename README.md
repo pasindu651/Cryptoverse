@@ -15,10 +15,10 @@ Cryptoverse is an all-in-one streamlit python app that offers a comprehensive pl
 * [Voiceflow](https://www.voiceflow.com/)
 
 
-## How It Works 
+## How It Works ✅
 ![image](https://i.ibb.co/R71myDc/cryptoverse-pg-1.jpg)
 
-<h3>Cryptocurrency price prediction component:</h3>
+<h3>Cryptocurrency price prediction component💸:</h3>
 
 1. The user can predict cryptocurrency prices with full customizability of the type of currency, the start/end window used for prediction, and how far into the future the user wishes to predict.
 
@@ -32,7 +32,7 @@ Cryptoverse is an all-in-one streamlit python app that offers a comprehensive pl
 
 ![image](https://i.ibb.co/Kj7JZJ4/cryptoverse-pg-2.jpg)
 
-<h3>Cryptocurrency comparison and heatmap component:</h3>
+<h3>Cryptocurrency comparison and heatmap component🗺️:</h3>
 
 1. The program creates multiple columns with simultaneous data provided by the tickers selected by the user
 
@@ -44,7 +44,7 @@ Cryptoverse is an all-in-one streamlit python app that offers a comprehensive pl
 
 ![image](https://i.ibb.co/wY6mxVH/cryptoverse-pg-4.jpg)
 
-<h3>Cryptocurrency financial chatbot component:</h3>
+<h3>Cryptocurrency financial chatbot component 💬:</h3>
 
 1. The program uses Voiceflow's streamlined flowchart structure to build responses trained on financial Q&A data.
 
