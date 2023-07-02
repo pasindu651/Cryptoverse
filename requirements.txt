@@ -5,6 +5,6 @@ datetime
 scikit-learn
 yfinance
 tensorflow
-streamlit_extras
+streamlit-extras
 seaborn
 matplotlib
