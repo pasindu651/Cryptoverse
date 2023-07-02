@@ -23,6 +23,7 @@ Cryptocurrency price prediction component:
 4. The program fits the model and compares the predicted prices of the test data and the actual prices, plotting their respective graphs using pandas and streamlit
 
 <details><summary><b>Show instructions</b></summary>
+    
 1. Install streamlit:
     
     ```sh
