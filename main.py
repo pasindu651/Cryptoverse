@@ -1,12 +1,13 @@
 import streamlit as st
 from streamlit_extras.no_default_selectbox import selectbox
 import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
 import pandas_datareader as web
 import datetime as dt
 from sklearn.preprocessing import MinMaxScaler
 import yfinance as yf
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 import tensorflow as tf
 from tensorflow.keras.layers import Dense, Dropout, LSTM
@@ -14,7 +15,9 @@ from tensorflow.keras.models import Sequential
 from streamlit.components.v1 import html
 import random
 
-st.title("Cryptoverse :lightning:")
+st.set_page_config(page_title='Cryptoverse', page_icon='web3logo.png', layout="centered", initial_sidebar_state="auto", menu_items=None)
+
+st.title("Cryptoverse")
 
 longShort = {
 "Bitcoin" : "BTC",
@@ -89,6 +92,8 @@ cryptoOptions = list(longShort.keys())
 
 cryptoType = selectbox("Select a type of cryptocurrency for prediction", cryptoOptions)
 
+metric = "Close"
+
 start = st.date_input('Start', value=pd.to_datetime('2016-1-1'))
 end = st.date_input('End', value=pd.to_datetime('today'))
 
@@ -98,9 +103,11 @@ futureDiologue = {"1 day": "after a day", "1 week": "after a week", "2 weeks" : 
 
 futureDuration = selectbox("Select duration for future prediction", future_dict.keys())
 
+comparison_names = st.multiselect("Select assets for comparison", cryptoOptions)
 
 
-if cryptoType is not None and futureDuration is not None:
+
+if cryptoType is not None and futureDuration is not None and (len(comparison_names)) > 1 is not None:
   tf.keras.backend.clear_session()
   future = future_dict[futureDuration]
   load_state = st.text("Loading data...")
@@ -158,8 +165,6 @@ if cryptoType is not None and futureDuration is not None:
   prediction_prices = scaler.inverse_transform(prediction_prices)
 
 
-  load_state.text("Done!")
-
   data = {'index' : test_data.index,
     'Predicted prices':  prediction_prices.flatten(),
           'Actual Prices': actual_prices.flatten()}
@@ -169,6 +174,10 @@ if cryptoType is not None and futureDuration is not None:
   st.dataframe(df.set_index('index'))
 
   st.subheader(f'Time vs {crypto_currency} prices')
+
+
+  load_state.text("Plotting data...")
+
   st.line_chart(df)
 
   real_data = [model_inputs[len(model_inputs)+1-prediction_days:len(model_inputs)+int(future),0]]
@@ -180,6 +189,36 @@ if cryptoType is not None and futureDuration is not None:
 
 
   st.success(f'{random.choice(encouraging_messages)} :rocket: The price of {cryptoType} {futureDiologue[futureDuration]}: ${round(float(prediction[0][0]), 2)} USD')
+
+##############
+  st.subheader('Comparison of data')
+  first = True
+  colnames = []
+  data = {}
+  if len(comparison_names) > 1:
+    for ticker in comparison_names:
+      updated_ticker = longShort[ticker]
+      data = yf.download(f"{updated_ticker}-{scale_currency}", start=start, end=end)
+      if first:
+          combined = data[[metric]].copy()
+          colnames.append(updated_ticker)
+          combined.columns = colnames
+          first = False
+      else:
+          combined = combined.join(data[metric])
+          colnames.append(updated_ticker)
+          combined.columns = colnames
+    df2 = pd.DataFrame(combined)
+    st.line_chart(df2)
+
+    st.subheader('Heatmap of data')
+    fig, ax = plt.subplots()
+    combined = combined.pct_change().corr(method='pearson')
+    sns.heatmap(combined, annot=True, cmap="coolwarm")
+    st.write(fig)
+
+    load_state.text("Done!")
+
 
 js_code = """
     (function (d, t) {
@@ -198,5 +237,4 @@ js_code = """
 chat_html = f"<script>{js_code}</script>"
 
 html(chat_html, width=950, height=400)
-
 
