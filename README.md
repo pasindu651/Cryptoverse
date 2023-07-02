@@ -44,5 +44,5 @@ Cryptoverse is an all-in-one streamlit python app that offers a comprehensive pl
    
 <details><summary><b>Show requirements</b></summary>
     
-Install with ```pip install -r requirements.txt
+Install with ```pip install -r requirements.txt```
 </details>
