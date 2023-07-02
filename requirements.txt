@@ -1,0 +1,8 @@
+streamlit
+numpy
+pandas
+datetime
+scikit-learn
+yfinance
+tensorflow
+streamlit_extras
