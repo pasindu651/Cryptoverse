@@ -6,3 +6,5 @@ scikit-learn
 yfinance
 tensorflow
 streamlit_extras
+seaborn
+matplotlib
