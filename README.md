@@ -9,7 +9,7 @@ Cryptoverse is an all-in-one streamlit python app that offers a comprehensive pl
 * [Streamlit](https://streamlit.io/)
 * [Numpy](https://numpy.org/)
 * [Pandas](https://pandas.pydata.org/) 
-  [Tensorflow](https://www.tensorflow.org/).
+* [Tensorflow](https://www.tensorflow.org/)
 * [Yfinance](https://pypi.org/project/yfinance/) 
 
 
