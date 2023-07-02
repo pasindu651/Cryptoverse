@@ -197,6 +197,6 @@ js_code = """
 
 chat_html = f"<script>{js_code}</script>"
 
-html(chat_html, width=750, height=300)
+html(chat_html, width=950, height=400)
 
 
