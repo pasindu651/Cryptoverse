@@ -1,10 +1,10 @@
-# Cryptoverse
+# Cryptoverse ⚡
 
 
 Cryptoverse is an all-in-one streamlit python app that offers a comprehensive platform for predicting various types of cryptocurrencies, engaging with a financial cryptocurrency chatbot, and gaining insightful comparisons between different cryptos with a heatmap. This app allows regular investors to stay ahead of the crypto game by making informed decisions about their investments and leveraging a well-rounded analysis of cryptocurrency in a market that is characterized by uncertainty.
 
 
-## Tools Used
+## Tools Used 🔧
 
 * [Python 3.10.0](https://www.python.org/downloads/release/python-3100/)
 * [Streamlit](https://streamlit.io/)
@@ -15,7 +15,7 @@ Cryptoverse is an all-in-one streamlit python app that offers a comprehensive pl
 * [Voiceflow](https://www.voiceflow.com/)
 
 
-## How It Works
+## How It Works 
 ![image](https://i.ibb.co/R71myDc/cryptoverse-pg-1.jpg)
 
 <h3>Cryptocurrency price prediction component:</h3>
