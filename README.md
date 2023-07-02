@@ -15,6 +15,7 @@ Cryptoverse is an all-in-one streamlit python app that offers a comprehensive pl
 
 
 ## How It Works
+![image](https://i.ibb.co/R71myDc/cryptoverse-pg-1.jpg)
 
 Cryptocurrency price prediction component:
 1. The user can predict cryptocurrency prices with full customizability of the type of currency, the start/end window used for prediction, and how far into the future the user wishes to predict
@@ -22,10 +23,11 @@ Cryptocurrency price prediction component:
 3. The program leverages a sequential model built with LSTM layers to understand the relationships of the price data.
 4. The program fits the model and compares the predicted prices of the test data and the actual prices, plotting their respective graphs using pandas and streamlit
 
-![image](https://i.ibb.co/R71myDc/cryptoverse-pg-1.jpg)
-
+![image](https://i.ibb.co/Kj7JZJ4/cryptoverse-pg-2.jpg)
 
 Cryptocurrency financial chatbot component:
+![image](https://i.ibb.co/xFLGdx1/cryptoverse-pg-3.jpg)
+
 1. The program uses Voiceflow's streamlined flowchart structure to build responses trained on financial Q&A data.......
    
 <details><summary><b>Show requirements</b></summary>
