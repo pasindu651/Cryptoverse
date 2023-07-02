@@ -30,7 +30,7 @@ Cryptoverse is an all-in-one streamlit python app that offers a comprehensive pl
 
 ![image](https://i.ibb.co/Kj7JZJ4/cryptoverse-pg-2.jpg)
 
-Cryptocurrency financial chatbot component:
+<h3>Cryptocurrency financial chatbot component:</h3>
 ![image](https://i.ibb.co/xFLGdx1/cryptoverse-pg-3.jpg)
 
 1. The program uses Voiceflow's streamlined flowchart structure to build responses trained on financial Q&A data.......
