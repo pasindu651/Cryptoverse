@@ -63,7 +63,7 @@ Cryptoverse is an all-in-one streamlit python app that offers a comprehensive pl
 1. Install sklearn:
    
     ```sh
-    pip install sklearn
+    pip install scikit-learn
     ```
 1. Install yfinance:
    
