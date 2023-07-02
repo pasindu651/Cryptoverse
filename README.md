@@ -12,7 +12,7 @@ Cryptoverse is an all-in-one streamlit python app that offers a comprehensive pl
 * [Pandas](https://pandas.pydata.org/) 
 * [Tensorflow](https://www.tensorflow.org/)
 * [Yfinance](https://pypi.org/project/yfinance/)
-* [Voiceflow](https://pypi.org/project/yfinance/)
+* [Voiceflow](https://www.voiceflow.com/)
 
 
 ## How It Works
@@ -36,7 +36,11 @@ Cryptoverse is an all-in-one streamlit python app that offers a comprehensive pl
 
 ![image](https://i.ibb.co/xFLGdx1/cryptoverse-pg-3.jpg)
 
-1. The program uses Voiceflow's streamlined flowchart structure to build responses trained on financial Q&A data.......
+1. The program uses Voiceflow's streamlined flowchart structure to build responses trained on financial Q&A data.
+
+2. The program feeds the training data to GPT 3.5.
+
+3. The user can then ask a question, which then prompts the chatbot to query the training data to generate a response based on the most relevant information.
    
 <details><summary><b>Show requirements</b></summary>
     
